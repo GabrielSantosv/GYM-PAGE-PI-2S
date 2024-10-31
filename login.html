@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fúria Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+      color: red;
+        }
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; 
+            color: #fff; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 20px 20px;
+        }
+
+        header .logo h1 {
+            font-size: 1.5em;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 16px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+ 
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        #cadastro-aluno {
+            width: 55%;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border: 1px solid #ff3333;
+            border-radius: 8px;
+        }
+
+        #cadastro-aluno fieldset {
+            border: 1px solid #ff3333;
+            padding: 10px;
+        }
+
+        #cadastro-aluno legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff3333;
+        }
+
+        #cadastro-aluno label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        #cadastro-aluno input,
+        #cadastro-aluno select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ff3333;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        #cadastro-aluno button {
+            padding: 12px;
+            width: 50%;
+            background-color: #ff3333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #cadastro-aluno button:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            margin-top: 522px;
+            font-size: 0.9em;
+            color: #fff;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>FÚRIA FITNESS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Login</h2>
+        <div class="container">
+            <form id="cadastro-aluno">
+                <fieldset>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+                    Não possui cadastro? <a href="file:///C:/aaaaaaaaaa/facul/pi/site/cadastro%20do%20aluno/cadastro.html">Clique aqui</a> para criar uma conta.
+                    <br>
+                    <br>
+                    <button type="submit">Fazer login</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contato: Telefone: (XX) XXXX-XXXX | E-mail: contato@xxx.com</p>
+        <p>Instagram: @furiafitness | Facebook: Fúria Fitness</p>
+    </footer>
+</body>
+</html>
